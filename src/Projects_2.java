@@ -9,7 +9,9 @@ public class Projects_2 {
         long d = 5000L;
         float f = 10.565148f;
         double g = 8.5698462145843;
-        System.out.println("А = " + a + " B = " + b + " C = " + c + " D = " + d + " F = " + f + " G = " + g);
+        boolean e = true;
+        char h = 'h';
+        System.out.println("А = " + a + " B = " + b + " C = " + c + " D = " + d + " F = " + f + " G = " + g + " Е = " + e + " H = " + h);
 
 //Задание 2
         System.out.println("Задание 2");
@@ -25,14 +27,14 @@ public class Projects_2 {
 // Задание 3
         System.out.println("Задание 3");
         byte bananas = 5;
-        short milk = 200;
+        short milkMl = 200;
         byte iceCream = 2;
         byte eeg = 4;
 
-        short weightOfBananas = 5 * 80;
-        short milkWeight = 2 * 105;
-        short iceCreamWeight = 2 * 100;
-        short eggWeight = 4 * 70;
+        int weightOfBananas = bananas * 80;
+        int milkWeight = milkMl/100 * 105;
+        int iceCreamWeight = iceCream * 100;
+        int eggWeight = eeg * 70;
         int cocktailWeightGr = weightOfBananas + milkWeight + iceCreamWeight + eggWeight;
         System.out.println("Рецепт коктейля: смешать в блендере 5 бананов, 200 мл молока, 2 брикета мороженого, 4 яйца.");
         System.out.println("Общий вес коктейля " + cocktailWeightGr + " гр.");
@@ -49,8 +51,8 @@ public class Projects_2 {
         short lossInOneDayMax = 500;
         double numberOfDaysMin = weightLossGr * 1.0 / lossInOneDayMin;
         double numberOfDaysMax = weightLossGr * 1.0 / lossInOneDayMax;
-        System.out.println("Колличество дней при потере 250 гр. в день = " + numberOfDaysMin);
-        System.out.println("Колличество дней при потере 500 гр. в день = " + numberOfDaysMax);
+        System.out.println("Количество дней при потере 250 гр. в день = " + numberOfDaysMin);
+        System.out.println("Количество дней при потере 500 гр. в день = " + numberOfDaysMax);
         double lossInOneDaySr = (lossInOneDayMax + lossInOneDayMin) * 1.0/2;
         System.out.println("Потеря веса в среднем = " + lossInOneDaySr);
         double numberOfDaysSr = weightLossGr / lossInOneDaySr;
